@@ -24,7 +24,8 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:3000',
-    'https://engspace-frontend.vercel.app',
+    'https://eng-space.vercel.app', 
+    'https://engspace-frontend.vercel.app', 
     'https://engspace.vn'
   ],
   credentials: true,
