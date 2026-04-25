@@ -6,7 +6,7 @@ export const AUTH_EVENTS = {
 
 // Instance axios đã cấu hình sẵn base URL
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // backend URL
+  baseURL: `${import.meta.env.VITE_API_URL}/api`, // backend URL from .env
 });
 
 // Helper function to get full image URL
@@ -18,7 +18,7 @@ export const getImageUrl = (imagePath) => {
   }
   // If relative path starting with /uploads, add backend base URL
   if (imagePath.startsWith('/uploads/')) {
-    return `http://localhost:5000${imagePath}`;
+    return `${import.meta.env.VITE_API_URL}${imagePath}`;
   }
   // If relative path, assume it's from public folder
   return imagePath;

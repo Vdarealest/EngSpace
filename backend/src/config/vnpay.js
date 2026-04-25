@@ -1,5 +1,4 @@
-require('dotenv').config(); // Nhớ require dotenv nếu đang dùng Node.js thường
-
+require('dotenv').config(); 
 module.exports = {
   vnp_TmnCode: process.env.VNP_TMN_CODE,
   vnp_HashSecret: process.env.VNP_HASH_SECRET,

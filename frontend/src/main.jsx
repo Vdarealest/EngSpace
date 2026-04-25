@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext.jsx";
-import { GoogleOAuthProvider } from '@react-oauth/google'; // <--- Bổ sung dòng này
+import { GoogleOAuthProvider } from '@react-oauth/google'; // 
 // GLOBAL
 import "./assets/css/main.css";
 
@@ -27,7 +27,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 // KHỞI TẠO AOS
 AOS.init();
 
-const GOOGLE_CLIENT_ID = "157798484606-80019p9sjblufdsr7r7bh2lu14mn91ct.apps.googleusercontent.com";
+const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
