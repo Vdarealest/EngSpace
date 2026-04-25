@@ -1,66 +1,55 @@
-📚 EngSpace - Learning Management System
+# 📚 EngSpace - Learning Management System
+
 An online English learning platform with clear learning paths, real-world lessons, and easy-to-track self-study spaces.
 
-🌐 Live Demo
+🌐 **Live Demo**
+* **Frontend:** [https://eng-space.vercel.app](https://eng-space.vercel.app)
+* **Backend API:** [https://engspace.onrender.com](https://engspace.onrender.com)
+* **API Documentation:** [https://engspace.onrender.com/api-docs](https://engspace.onrender.com/api-docs)
 
-Frontend: https://eng-space.vercel.app
+---
 
-Backend API: https://engspace.onrender.com
+## ✨ Key Features
 
-API Documentation: https://engspace.onrender.com/api-docs
+### 👨‍🎓 For Learners
+* **Course Management:** Browse and enroll in various English courses.
+* **Progress Tracking:** Track learning progress visually.
+* **Interactive Quizzes:** Complete quizzes to test knowledge.
+* **Secure Payments:** Integrated with **VNPay** for safe transactions.
+* **Educational Blog:** Read latest articles and tips for learning English.
 
-✨ Key Features
-👨‍🎓 For Learners
-Course Management: Browse and enroll in various English courses.
+### 👨‍💼 For Instructors & Admins
+* **Course Creation:** Advanced tools to manage course content.
+* **Analytics Dashboard:** View student enrollments and performance.
+* **Revenue Monitoring:** Real-time tracking of course sales.
+* **Media Management:** Upload images and materials via Multer.
 
-Progress Tracking: Track learning progress visually.
+---
 
-Interactive Quizzes: Complete quizzes to test knowledge.
+## 🏗️ Tech Stack
 
-Secure Payments: Integrated with VNPay for safe transactions.
+### Frontend
+* **React 19.2.0** - UI Framework
+* **Vite 7.2.2** - Build Tool
+* **React Router 7.9.5** - Navigation
+* **Bootstrap 5.3.8** - Styling
+* **Recharts 3.5.1** - Data Visualization
+* **Axios 1.13.2** - HTTP Client
+* **Google OAuth** - Authentication
 
-Educational Blog: Read latest articles and tips for learning English.
+### Backend
+* **Node.js & Express.js** - Runtime & Framework
+* **MongoDB** - NoSQL Database
+* **JWT** - Token Authentication
+* **Multer** - File Upload
+* **VNPay API** - Payment Gateway
+* **Nodemailer** - Email Service
 
-👨‍💼 For Instructors & Admins
-Course Creation: Advanced tools to manage course content.
+---
 
-Analytics Dashboard: View student enrollments and performance.
+## 📁 Project Structure
 
-Revenue Monitoring: Real-time tracking of course sales.
-
-Media Management: Upload images and materials via Multer.
-
-🏗️ Tech Stack
-Frontend
-React 19.2.0 - UI Framework
-
-Vite 7.2.2 - Build Tool
-
-React Router 7.9.5 - Navigation
-
-Bootstrap 5.3.8 - Styling
-
-Recharts 3.5.1 - Data Visualization
-
-Axios 1.13.2 - HTTP Client
-
-Google OAuth - Authentication
-
-Backend
-Node.js & Express.js - Runtime & Framework
-
-MongoDB - NoSQL Database
-
-JWT - Token Authentication
-
-Multer - File Upload
-
-VNPay API - Payment Gateway
-
-Nodemailer - Email Service
-
-📁 Project Structure
-Plaintext
+```text
 EngSpace/
 ├── frontend/                # React + Vite App
 │   ├── src/
@@ -77,10 +66,11 @@ EngSpace/
 │   │   └── index.js         # Entry point
 │   └── package.json
 └── README.md
-🚀 Quick Start
+
+Quick Start
 1. Clone Repository
 Bash
-git clone https://github.com/[YOUR_GITHUB_USERNAME]/EngSpace.git
+git clone [https://github.com/Vdarealest/EngSpace.git](https://github.com/Vdarealest/EngSpace.git)
 cd EngSpace
 2. Setup Backend
 Bash
@@ -108,4 +98,3 @@ Render Cold Start: The backend may take 30-50s to "wake up" on the first request
 [ ] Live class feature with Socket.io
 
 [ ] Automated certificate generation
-
