@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: engspace-backend
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        scope: build
+        sync: false
+      - key: JWT_SECRET
+        scope: build
+        sync: false
+      - key: VNP_TMN_CODE
+        scope: build
+        sync: false
+      - key: VNP_HASH_SECRET
+        scope: build
+        sync: false
+      - key: VNP_URL
+        value: https://sandbox.vnpayment.vn/paymentv2/vpcpay.html
+      - key: VNP_RETURN_URL
+        value: https://engspace-frontend.vercel.app/payment/result

@@ -20,7 +20,17 @@ const PORT = process.env.PORT || 5000;
 
 connectDB(process.env.MONGO_URI || 'mongodb://localhost:27017/engspace');
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:3000',
+    'https://engspace-frontend.vercel.app',
+    'https://engspace.vn'
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
