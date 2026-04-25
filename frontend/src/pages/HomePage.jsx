@@ -204,63 +204,64 @@ export default function HomePage() {
       </section>
 
       {/* Course Categories Section */}
-      <section id="course-categories" className="course-categories section">
-        <div className="container section-title" data-aos="fade-up">
-          <h2>Danh mục khóa học</h2>
-          <p>Khám phá các khóa học được thiết kế chuyên biệt, phù hợp với mọi trình độ và mục tiêu học tập của bạn.</p>
+{/* <section id="course-categories" className="course-categories section">
+    <div className="container section-title" data-aos="fade-up">
+      <h2>Danh mục khóa học</h2>
+      <p>Khám phá các khóa học được thiết kế chuyên biệt, phù hợp với mọi trình độ và mục tiêu học tập của bạn.</p>
+    </div>
+    <div className="container" data-aos="fade-up" data-aos-delay="100">
+      <div className="row g-4">
+        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+          <Link to="/courses" className="category-card category-language">
+            <div className="category-icon"><i className="bi bi-globe"></i></div>
+            <h5>Luyện thi IELTS</h5>
+            <span className="course-count">12 Courses</span>
+          </Link>
         </div>
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
-          <div className="row g-4">
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
-              <Link to="/courses" className="category-card category-language">
-                <div className="category-icon"><i className="bi bi-globe"></i></div>
-                <h5>Luyện thi IELTS</h5>
-                <span className="course-count">12 Courses</span>
-              </Link>
-            </div>
 
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="150">
-              <Link to="/courses" className="category-card category-speaking">
-                <div className="category-icon"><i className="bi bi-geo-alt"></i></div>
-                <h5>Giao tiếp hằng ngày</h5>
-                <span className="course-count">18 Courses</span>
-              </Link>
-            </div>
-
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
-              <Link to="/courses" className="category-card category-grammar">
-                <div className="category-icon"><i className="bi bi-grid-3x3"></i></div>
-                <h5>Ngữ pháp &amp; Từ vựng</h5>
-                <span className="course-count">10 Courses</span>
-              </Link>
-            </div>
-
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="250">
-              <Link to="/courses" className="category-card category-kids">
-                <div className="category-icon"><i className="bi bi-gift"></i></div>
-                <h5>Tiếng Anh thiếu nhi</h5>
-                <span className="course-count">8 Courses</span>
-              </Link>
-            </div>
-
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
-              <Link to="/courses" className="category-card category-toeic">
-                <div className="category-icon"><i className="bi bi-graph-up"></i></div>
-                <h5>Luyện thi TOEIC</h5>
-                <span className="course-count">9 Courses</span>
-              </Link>
-            </div>
-
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="350">
-              <Link to="/courses" className="category-card category-business">
-                <div className="category-icon"><i className="bi bi-briefcase"></i></div>
-                <h5>Tiếng Anh công sở</h5>
-                <span className="course-count">6 Courses</span>
-              </Link>
-            </div>
-          </div>
+        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="150">
+          <Link to="/courses" className="category-card category-speaking">
+            <div className="category-icon"><i className="bi bi-geo-alt"></i></div>
+            <h5>Giao tiếp hằng ngày</h5>
+            <span className="course-count">18 Courses</span>
+          </Link>
         </div>
-      </section>
+
+        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+          <Link to="/courses" className="category-card category-grammar">
+            <div className="category-icon"><i className="bi bi-grid-3x3"></i></div>
+            <h5>Ngữ pháp &amp; Từ vựng</h5>
+            <span className="course-count">10 Courses</span>
+          </Link>
+        </div>
+
+        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="250">
+          <Link to="/courses" className="category-card category-kids">
+            <div className="category-icon"><i className="bi bi-gift"></i></div>
+            <h5>Tiếng Anh thiếu nhi</h5>
+            <span className="course-count">8 Courses</span>
+          </Link>
+        </div>
+
+        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+          <Link to="/courses" className="category-card category-toeic">
+            <div className="category-icon"><i className="bi bi-graph-up"></i></div>
+            <h5>Luyện thi TOEIC</h5>
+            <span className="course-count">9 Courses</span>
+          </Link>
+        </div>
+
+        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="350">
+          <Link to="/courses" className="category-card category-business">
+            <div className="category-icon"><i className="bi bi-briefcase"></i></div>
+            <h5>Tiếng Anh công sở</h5>
+            <span className="course-count">6 Courses</span>
+          </Link>
+        </div>
+      </div>
+    </div>
+  </section>
+*/}
 
       {/* Testimonials Section */}
       <section id="testimonials" className="testimonials section">
