@@ -9,10 +9,10 @@ export default function Terms() {
   }, []);
 
   const prohibitedActivities = [
-    "Systematic retrieval of data or content",
-    "Publishing malicious content",
-    "Engaging in unauthorized framing",
-    "Attempting to gain unauthorized access",
+    "Truy xuất dữ liệu hoặc nội dung một cách có hệ thống",
+    "Xuất bản nội dung độc hại",
+    "Tham gia vào khung không được phép",
+    "Cố gắng truy cập không được phép",
   ];
 
   return (
@@ -20,11 +20,11 @@ export default function Terms() {
       {/* Page Title */}
       <div className="page-title light-background">
         <div className="container d-lg-flex justify-content-between align-items-center">
-          <h1 className="mb-2 mb-lg-0">Terms</h1>
+          <h1 className="mb-2 mb-lg-0">Điều Khoản</h1>
           <nav className="breadcrumbs">
             <ol>
-              <li><Link to="/">Home</Link></li>
-              <li className="current">Terms</li>
+              <li><Link to="/">Trang Chủ</Link></li>
+              <li className="current">Điều Khoản</li>
             </ol>
           </nav>
         </div>
@@ -35,64 +35,64 @@ export default function Terms() {
         <div className="container" data-aos="fade-up">
           {/* Header */}
           <div className="tos-header text-center" data-aos="fade-up">
-            <span className="last-updated">Last Updated: February 27, 2025</span>
-            <h2>Terms of Service</h2>
-            <p>Please read these terms of service carefully before using our services</p>
+            <span className="last-updated">Cập Nhật Lần Cuối: 27 Tháng 2, 2025</span>
+            <h2>Điều Khoản Dịch Vụ</h2>
+            <p>Vui lòng đọc kỹ những điều khoản dịch vụ này trước khi sử dụng dịch vụ của chúng tôi</p>
           </div>
 
           {/* Terms Content */}
           <div className="tos-content" data-aos="fade-up" data-aos-delay="200">
             {/* 1. Agreement */}
             <div id="agreement" className="content-section">
-              <h3>1. Agreement to Terms</h3>
+              <h3>1. Đồng Ý Với Điều Khoản</h3>
               <p>
-                By accessing our website and services, you agree to be bound by these Terms of Service
-                and all applicable laws and regulations. If you do not agree with any of these terms,
-                you are prohibited from using or accessing our services.
+                Bằng cách truy cập trang web và dịch vụ của chúng tôi, bạn đồng ý bị ràng buộc bởi những Điều khoản dịch vụ này
+                và tất cả các luật pháp và quy định áp dụng. Nếu bạn không đồng ý với bất kỳ điều khoản nào,
+                bạn bị cấm sử dụng hoặc truy cập dịch vụ của chúng tôi.
               </p>
               <div className="info-box">
                 <i className="bi bi-info-circle"></i>
-                <p>These terms apply to all users, visitors, and others who access or use our services.</p>
+                <p>Những điều khoản này áp dụng cho tất cả người dùng, khách truy cập và những người khác truy cập hoặc sử dụng dịch vụ của chúng tôi.</p>
               </div>
             </div>
 
             {/* 2. Intellectual Property */}
             <div id="intellectual-property" className="content-section">
-              <h3>2. Intellectual Property Rights</h3>
+              <h3>2. Quyền Sở Hữu Trí Tuệ</h3>
               <p>
-                Our service and its original content, features, and functionality are owned by us and
-                are protected by international copyright, trademark, patent, trade secret, and other
-                intellectual property laws.
+                Dịch vụ của chúng tôi và nội dung, tính năng và chức năng ban đầu của nó thuộc sở hữu của chúng tôi và
+                được bảo vệ bởi luật bản quyền quốc tế, nhãn hiệu, bằng sáng chế, bí mật thương mại và các
+                luật sở hữu trí tuệ khác.
               </p>
               <ul className="list-items">
-                <li>All content is our exclusive property</li>
-                <li>You may not copy or modify the content</li>
-                <li>Our trademarks may not be used without permission</li>
-                <li>Content is for personal, non-commercial use only</li>
+                <li>Tất cả nội dung là tài sản độc quyền của chúng tôi</li>
+                <li>Bạn không được sao chép hoặc sửa đổi nội dung</li>
+                <li>Nhãn hiệu của chúng tôi không được sử dụng mà không có sự cho phép</li>
+                <li>Nội dung chỉ dành cho mục đích sử dụng cá nhân, không phục vụ mục đích thương mại</li>
               </ul>
             </div>
 
             {/* 3. User Accounts */}
             <div id="user-accounts" className="content-section">
-              <h3>3. User Accounts</h3>
+              <h3>3. Tài Khoản Người Dùng</h3>
               <p>
-                When you create an account with us, you must provide accurate, complete, and current
-                information. Failure to do so constitutes a breach of the Terms, which may result in
-                immediate termination of your account.
+                Khi bạn tạo tài khoản với chúng tôi, bạn phải cung cấp thông tin chính xác, đầy đủ và hiện tại. 
+                Việc không làm như vậy cấu thành vi phạm Điều khoản, điều này có thể dẫn đến
+                việc hủy tài khoản của bạn ngay lập tức.
               </p>
               <div className="alert-box">
                 <i className="bi bi-exclamation-triangle"></i>
                 <div className="alert-content">
-                  <h5>Important Notice</h5>
-                  <p>You are responsible for safeguarding the password and for all activities that occur under your account.</p>
+                  <h5>Thông Báo Quan Trọng</h5>
+                  <p>Bạn chịu trách nhiệm bảo vệ mật khẩu và tất cả các hoạt động xảy ra dưới tài khoản của bạn.</p>
                 </div>
               </div>
             </div>
 
             {/* 4. Prohibited Activities */}
             <div id="prohibited" className="content-section">
-              <h3>4. Prohibited Activities</h3>
-              <p>You may not access or use the Service for any purpose other than that for which we make it available.</p>
+              <h3>4. Hoạt Động Bị Cấm</h3>
+              <p>Bạn không được phép truy cập hoặc sử dụng Dịch vụ cho bất kỳ mục đích nào ngoài mục đích chúng tôi cung cấp.</p>
               <div className="prohibited-list">
                 {prohibitedActivities.map((item, index) => (
                   <div key={index} className="prohibited-item">
@@ -105,50 +105,50 @@ export default function Terms() {
 
             {/* 5. Disclaimers */}
             <div id="disclaimer" className="content-section">
-              <h3>5. Disclaimers</h3>
-              <p>Your use of our service is at your sole risk. The service is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, whether express or implied.</p>
+              <h3>5. Miễn Trừ Trách Nhiệm</h3>
+              <p>Việc sử dụng dịch vụ của chúng tôi là hoàn toàn do bạn chịu. Dịch vụ được cung cấp "NGUYÊN TRẠNG" và "CÓ SẵN" mà không có bảo hành nào, dù là rõ ràng hay ngụ ý.</p>
               <div className="disclaimer-box">
-                <p>We do not guarantee that:</p>
+                <p>Chúng tôi không đảm bảo rằng:</p>
                 <ul>
-                  <li>The service will meet your requirements</li>
-                  <li>The service will be uninterrupted or error-free</li>
-                  <li>Results from using the service will be accurate</li>
-                  <li>Any errors will be corrected</li>
+                  <li>Dịch vụ sẽ đáp ứng yêu cầu của bạn</li>
+                  <li>Dịch vụ sẽ không bị gián đoạn hoặc không có lỗi</li>
+                  <li>Kết quả từ việc sử dụng dịch vụ sẽ chính xác</li>
+                  <li>Bất kỳ lỗi nào sẽ được sửa chữa</li>
                 </ul>
               </div>
             </div>
 
             {/* 6. Limitation of Liability */}
             <div id="limitation" className="content-section">
-              <h3>6. Limitation of Liability</h3>
-              <p>In no event shall we be liable for any indirect, punitive, incidental, special, consequential, or exemplary damages arising out of or in connection with your use of the service.</p>
+              <h3>6. Giới Hạn Trách Nhiệm</h3>
+              <p>Trong mọi trường hợp, chúng tôi sẽ không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, phạt, tình cờ, đặc biệt, hệ quả hoặc gương mẫu phát sinh từ hoặc liên quan đến việc sử dụng dịch vụ của bạn.</p>
             </div>
 
             {/* 7. Indemnification */}
             <div id="indemnification" className="content-section">
-              <h3>7. Indemnification</h3>
-              <p>You agree to defend, indemnify, and hold us harmless from and against any claims, liabilities, damages, losses, and expenses arising out of your use of the service.</p>
+              <h3>7. Bảo Hiểm</h3>
+              <p>Bạn đồng ý bảo vệ, bồi thường và giữ cho chúng tôi vô hại khỏi và chống lại bất kỳ khiếu nại, trách nhiệm pháp lý, thiệt hại, mất mát và chi phí phát sinh từ việc sử dụng dịch vụ của bạn.</p>
             </div>
 
             {/* 8. Termination */}
             <div id="termination" className="content-section">
-              <h3>8. Termination</h3>
-              <p>We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+              <h3>8. Chấm Dứt</h3>
+              <p>Chúng tôi có thể chấm dứt hoặc tạm ngừng tài khoản của bạn ngay lập tức, mà không cần thông báo trước hoặc chịu trách nhiệm, vì bất kỳ lý do gì, bao gồm nhưng không giới hạn ở việc bạn vi phạm Điều khoản.</p>
             </div>
 
             {/* 9. Governing Law */}
             <div id="governing-law" className="content-section">
-              <h3>9. Governing Law</h3>
-              <p>These Terms shall be governed by and construed in accordance with the laws of [Your Country], without regard to its conflict of law provisions.</p>
+              <h3>9. Luật Điều Chỉnh</h3>
+              <p>Những Điều khoản này sẽ được điều chỉnh bởi và được giải thích theo các luật của Việt Nam, không xem xét các quy định xung đột pháp luật của nó.</p>
             </div>
 
             {/* 10. Changes */}
             <div id="changes" className="content-section">
-              <h3>10. Changes to Terms</h3>
-              <p>We reserve the right to modify or replace these Terms at any time. We will provide notice of any changes by posting the new Terms on this page.</p>
+              <h3>10. Thay Đổi Điều Khoản</h3>
+              <p>Chúng tôi bảo lưu quyền sửa đổi hoặc thay thế những Điều khoản này bất kỳ lúc nào. Chúng tôi sẽ thông báo về bất kỳ thay đổi nào bằng cách đăng những Điều khoản mới trên trang này.</p>
               <div className="notice-box">
                 <i className="bi bi-bell"></i>
-                <p>By continuing to access or use our service after those revisions become effective, you agree to be bound by the revised terms.</p>
+                <p>Bằng cách tiếp tục truy cập hoặc sử dụng dịch vụ của chúng tôi sau những thay đổi đó có hiệu lực, bạn đồng ý bị ràng buộc bởi những điều khoản được sửa đổi.</p>
               </div>
             </div>
           </div>
@@ -160,9 +160,9 @@ export default function Terms() {
                 <i className="bi bi-envelope"></i>
               </div>
               <div className="contact-content">
-                <h4>Questions About Terms?</h4>
-                <p>If you have any questions about these Terms, please contact us.</p>
-                <Link to="/contact" className="contact-link">Contact Support</Link>
+                <h4>Câu Hỏi Về Điều Khoản?</h4>
+                <p>Nếu bạn có bất kỳ câu hỏi nào về những Điều khoản này, vui lòng liên hệ với chúng tôi.</p>
+                <Link to="/contact" className="contact-link">Liên Hệ Hỗ Trợ</Link>
               </div>
             </div>
           </div>
