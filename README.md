@@ -42,8 +42,6 @@ An online English learning platform with clear learning paths, real-world lesson
 * **MongoDB** - NoSQL Database
 * **JWT** - Token Authentication
 * **Multer** - File Upload
-* **VNPay API** - Payment Gateway
-* **Nodemailer** - Email Service
 
 ---
 
